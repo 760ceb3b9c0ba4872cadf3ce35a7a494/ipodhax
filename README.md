@@ -65,7 +65,8 @@ from ipodhax.img1 import pack_img1
 
 input_path = Path("rsrc")
 output_path = Path("rsrc.img1")
+device = 6  # 6th or 7th generation
 
 with open(output_path, "wb") as img1_stream:
-  pack_img1(img1_stream, output_path)
+  pack_img1(img1_stream, output_path, device=device)
 ```
