@@ -2,9 +2,9 @@
 my work on iPod nano 6g and 7g pwning. right now we have no code-exec on these devices.
 
 ## MSE
-MSE is a container format for multiple IMG1s, present in IPSW files with the name `Firmware.MSE`.
+MSE is a container format for multiple IMG1s. it is present in IPSW files with the name `Firmware.MSE`.
 
-each IMG1 has a name. the nano 6g has `disk`, `diag`, `appl`, `lbat`, `bdsw`, `bdhw`, `chrg`, `rsrc`, and `osos`, with the 7g adding `fv00` and `gpfw`.
+each IMG1 is assigned a name. the nano 6g has `disk`, `diag`, `appl`, `lbat`, `bdsw`, `bdhw`, `chrg`, `rsrc`, and `osos`, with the 7g adding `fv00` and `gpfw`.
 
 *see https://freemyipod.org/wiki/Firmware for (incomplete) technical details!*
 
