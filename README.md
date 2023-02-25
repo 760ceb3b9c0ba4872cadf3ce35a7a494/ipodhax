@@ -39,7 +39,7 @@ with open(output_path, "wb") as mse_stream:
 IMG1 is an image format used by non-iOS iPods based on the S5L CPU ([there are a lot of them](https://freemyipod.org/wiki/Hardware)) and some early iOS devices.  
 
 newer [IMG2](https://www.theiphonewiki.com/wiki/S5L_File_Formats#IMG2) and [IMG3](https://www.theiphonewiki.com/wiki/IMG3_File_Format) formats were used in newer iOS devices, and the [IMG4](https://www.theiphonewiki.com/wiki/IMG4_File_Format) format lives on in iOS and Apple Watch devices to this day.
-however non-iOS iPods (classic, nano, and shuffle) continued to use the IMG1 format. starting with the 4th generation nano, a newer 2.0 version of IMG1 is used, which this code implements.
+however non-iOS iPods (classic, nano, and shuffle) continued to use the IMG1 format, and starting with the 4th generation nano a newer 2.0 version of IMG1 is used, which this code implements.
 
 *see https://freemyipod.org/wiki/IMG1 for technical details!*
 
