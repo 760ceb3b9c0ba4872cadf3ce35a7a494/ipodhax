@@ -44,7 +44,7 @@ however non-iOS iPods (classic, nano, and shuffle) continued to use the IMG1 for
 *see https://freemyipod.org/wiki/IMG1 for technical details!*
 
 ### unpack
-unpacks an IMG1 file into a directory as a series of IMG1 files.
+unpacks an IMG1 file into a directory containing `head.json`, `body.bin`, `cert.bin` and `sign.bin`.
 ```py
 from pathlib import Path
 from ipodhax.img1 import unpack_img1
