@@ -1,5 +1,5 @@
 # ipodhax
-my work on iPod nano 6g and 7g pwning. right now we have no code-exec on these devices.
+my work on iPod nano 6g and 7g pwning. ~~right now we have no code-exec on these devices.~~ not anymore!!! check out https://github.com/CUB3D/ipod_sun
 
 ## MSE
 MSE is a container format for multiple IMG1s. it is present in IPSW files with the name `Firmware.MSE`.
